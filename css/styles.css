@@ -1,21 +1,22 @@
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center; /*centrarlo todo de manera horizontal*/
+    align-items: center; /*centrarlo verticalmente*/
+    flex-direction: column; /*para que el flex se quede en formato columna*/
 }
 
 .card1 {
-    background-image: url(../images/card1.jpg);
-    width: 506.65px;
-    height: 328.28px;
-    background-size: cover;
-    color: white;
-    display: flex;
+    background-image: url(../images/card1.jpg); /*para que la imagen se quede de fondo*/
+    filter: brightness(77%); /*para hacer que tenga menos brillo (nose como hacer que solo afecte al fondo)*/
+    width: 506.65px; /*modificar el ancho*/
+    height: 328.28px; /*modificar el alto*/
+    background-size: cover; /*hacer que el fondo cubra todo*/
+    color: white; /*hacer que el color del texto sea diferente*/
+    display: flex; 
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: Lato;
+    font-family: Lato; /*cambiar la tipografia de letra*/
 }
 
 .card1div {
@@ -34,7 +35,7 @@ body {
 .card2 {
     width: 302.97px;
     height: 240.96px;
-    border: 1.57px solid #0882e0;
+    border: 1.57px solid #0882e0; /*hacer el borde en el area, poniendo ancho, color y tipo de borde*/
     background-image: url(../images/card2.jpg);
     filter: brightness(0.7);
     background-size: cover;
@@ -55,12 +56,12 @@ body {
 
 .card2h1 {
     font-size: 40.81px;
-    line-height: 40.18px;
-    margin-bottom: 0px;
+    line-height: 40.18px; /*modificar la altura de una linea para dar mas o menos separacion*/
+    margin-bottom: 0px; /*modificar el tamaño de los margenes (en este caso el inferior)*/
 }
 
 .card2h2 {
-    font-size: 13.34px;
+    font-size: 13.34px; /*modificar el tamaño de texto*/
     line-height: 13.34px;
 }
 
@@ -68,7 +69,7 @@ body {
     width: 42.38px;
     height: 42.38px;
     border: 1.57px solid #0882e0;
-    border-radius: 42.38px;
+    border-radius: 42.38px; /*hacer que el borde sea redondeado*/
 }
 
 .card3cuadro {
@@ -76,8 +77,8 @@ body {
     height: 123.34px;
     border: 0.95px solid #00aeff;
     color: #1a2b49;
-    font-family: Lato;
-    padding: 10px;
+    font-family: Lato; 
+    padding: 10px; /*añadir una separacion a los items*/
 }
 
 .card3 {

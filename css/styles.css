@@ -1,0 +1,95 @@
+.card1 {
+    background-image: url(../images/card1.jpg);
+    width: 506.65px;
+    height: 328.28px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Lato;
+}
+
+.card1div {
+    width: 454.46px;
+    height: 279.89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card1header {
+    display: flex;
+}
+
+.card2 {
+    width: 302.97px;
+    height: 240.96px;
+    border: 1.57px solid #0882e0;
+    background-image: url(../images/card2.jpg);
+    filter: brightness(0.7);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: Poppins;
+}
+
+.card2texto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card2h1 {
+    font-size: 40.81px;
+    line-height: 40.18px;
+    margin-bottom: 0px;
+}
+
+.card2h2 {
+    font-size: 13.34px;
+    line-height: 13.34px;
+}
+
+.card2img {
+    width: 42.38px;
+    height: 42.38px;
+    border: 1.57px solid #0882e0;
+    border-radius: 42.38px;
+}
+
+.card3cuadro {
+    width: 270.4px;
+    height: 123.34px;
+    border: 0.95px solid #00aeff;
+}
+
+.card3 {
+    color: #1a2b49;
+    font-family: Lato;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card3h2 {
+    font-size: 11.39px;
+    line-height: 100%;
+}
+
+.card3h1 {
+    font-size: 22.77px;
+    line-height: 100%;
+}
+
+.card3img {
+    width: 77.8px;
+    height: 27.82px;
+    margin-top: 10px
+}
+
